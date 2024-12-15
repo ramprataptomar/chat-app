@@ -1,0 +1,100 @@
+.create-account{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.login{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    
+    form{
+        display: flex;
+        flex-flow: column;
+        width: 60%;
+        gap: 20px;
+        
+        input{
+            padding: 15px;
+            border-radius: 3px;
+            border: none;
+            outline: none;
+        }
+
+        button{
+            width: 40%;
+            padding: 10px;
+            border-radius: 3px;
+            margin: auto;
+            border: none;
+            background-color: #1f8ef1;
+            color: white;
+        }
+    }
+}
+.separator{
+    flex: 0.002;
+    background-color: white;
+    height: 100%;
+}
+
+.signup{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    
+    form{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        min-width: 80%;
+
+        input{
+            padding: 15px;
+            border-radius: 3px;
+            width: 80%;
+            min-width: 80%;
+            border: none;
+            outline: none;
+            color: white;
+        }
+
+        button{
+            width: 40%;
+            padding: 10px;
+            border-radius: 3px;
+            margin: auto;
+            border: none;
+            background-color: #1f8ef1;
+        }
+
+        label{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+}
