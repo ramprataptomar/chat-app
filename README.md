@@ -67,7 +67,7 @@ Follow these steps to set up the project locally:
 
 6. Open the application in your browser at:
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ---
