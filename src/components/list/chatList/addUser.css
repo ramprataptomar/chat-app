@@ -1,0 +1,68 @@
+.addUser-container{
+    display: flex;
+    flex-flow: column;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    background-color: rgba(17, 27, 40, 0.95);
+    border-radius: 3px;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    form{
+        input{
+            width: 200px;
+            padding: 10px;
+            background-color: white;
+            outline: none;
+            border: none;
+            border-radius: 3px;
+        }
+
+        button{
+            width: 60px;
+            height: 40px;
+            padding: 10px;
+            background-color: #1f8ef1;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+    }
+
+    .user{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        .detail{
+            display: flex;
+            flex-flow: row;
+            gap: 20px;
+            align-items: center;
+            cursor: pointer;
+
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+        }
+
+        button{
+            width: 60px;
+            height: 40px;
+            margin-right: 20px;
+            background-color: #1f8ef1;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+    }
+}

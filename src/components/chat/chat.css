@@ -105,6 +105,11 @@
             border-radius: 8px;
             color: white;
             font-size: large;
+
+            &:disabled{
+                opacity: 0.4;
+                cursor: not-allowed;
+            }
         }
 
         button{
@@ -118,6 +123,11 @@
 
             &:hover{
                 background-color: rgba(11, 178, 189, 0.947);
+            }
+
+            &:disabled{
+                opacity: 0.4;
+                cursor: not-allowed;
             }
         }
     }

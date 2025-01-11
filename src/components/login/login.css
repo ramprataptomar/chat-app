@@ -27,7 +27,9 @@
         
         input{
             padding: 15px;
-            border-radius: 3px;
+            border-radius: 5px;
+            background-color: rgba(17, 27, 40, 0.5);
+            color: white;
             border: none;
             outline: none;
         }
@@ -40,6 +42,11 @@
             border: none;
             background-color: #1f8ef1;
             color: white;
+            cursor: pointer;
+
+            &:disabled{
+                cursor: not-allowed;
+            }
         }
     }
 }
@@ -72,6 +79,7 @@
             border-radius: 3px;
             width: 80%;
             min-width: 80%;
+            background-color: rgba(17, 27, 40, 0.5);
             border: none;
             outline: none;
             color: white;
@@ -80,20 +88,34 @@
         button{
             width: 40%;
             padding: 10px;
-            border-radius: 3px;
+            border-radius: 5px;
             margin: auto;
             border: none;
             background-color: #1f8ef1;
+            color: white;
+            cursor: pointer;
+
+            &:disabled{
+                cursor: not-allowed;
+            }
         }
 
         label{
             display: flex;
             justify-content: center;
             align-items: center;
+            gap: 25px;
+            text-decoration: underline;
+            cursor: pointer;
 
             img{
                 width: 60px;
                 height: 60px;
+                border-radius: 5px;
+            }
+
+            input{
+                background-color: transparent;
             }
         }
     }

@@ -58,6 +58,7 @@
             border-bottom: 1px solid white;
             margin: 0 10px;
             gap: 20px;
+            cursor: pointer;
     
             img{
                 width: 40px;
@@ -78,5 +79,11 @@
                 }
             }
         }
+    }
+
+    .addChat{
+        background-color: rgba(17, 27, 40, 0.5);
+        width: 40%;
+        height: 40%;        
     }
 }
